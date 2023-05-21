@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/gridviewbg3"
+        android:padding="8dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level : "
+                   />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:id="@+id/tvLevelNumber"/>
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="5dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="false"
+                    android:text="Level Score : "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/idTvScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black" />
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="5dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Best : "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvHighestScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ProgressBar
+
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:id="@+id/progressBar"
+                    android:layout_centerInParent="true"
+                    android:layout_width="10dp"
+                    android:layout_height="300dp"
+                    android:max="100"
+                    android:progress="33"
+                    android:progressDrawable="@drawable/progress_drawable"
+
+                    android:layout_marginRight="5dp"
+                    android:indeterminate="false" />
+
+                <GridLayout
+                    android:id="@+id/idGridLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+
+                    ></GridLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <ImageButton
+
+                android:id="@+id/ibSound"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/unmute"
+                android:onClick="ImageButtonsClick"
+                android:layout_margin="3dp" />
+            <ImageButton
+                android:id="@+id/ibGameSound"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/mikeunmute"
+                android:onClick="ImageButtonsClick"
+                android:layout_margin="3dp" />
+            <ImageButton
+                android:id="@+id/ibResetGame"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/reset"
+                android:onClick="ImageButtonsClick"
+                android:layout_margin="3dp" />
+
+            <ImageButton
+                android:id="@+id/ibHowToPlay"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/how"
+                android:onClick="ImageButtonsClick"
+                android:layout_margin="3dp" />
+
+
+
+            <ImageButton
+
+                android:id="@+id/ibExitGame"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/exit"
+                android:onClick="ImageButtonsClick"
+                android:layout_margin="3dp" />
+            <ImageButton
+
+                android:id="@+id/ibInformationID"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/information"
+                android:onClick="ImageButtonsClick"
+                android:layout_margin="3dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+

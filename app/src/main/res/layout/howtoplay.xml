@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#77000000"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            >
+
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Touch to select any Ball"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/animation2" />
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose any blank tile to move ball"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/animation4" />
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arrange 5 or more same ball in a Line "
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/animation5" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arrange Horizontal/Vertical/Diagonal"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/animation11" />
+            <TextView
+                android:textColor="@color/DarkRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember Balls can't travel diagonally to reach destination!
+So in below image ball can not move to destination"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/animationerror" />
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="There should be a open path to destination"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/howtoplay" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
