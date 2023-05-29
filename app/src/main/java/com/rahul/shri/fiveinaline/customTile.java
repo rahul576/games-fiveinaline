@@ -1,7 +1,6 @@
-package com.sbt.rahul.fiveinaline;
+package com.rahul.shri.fiveinaline;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.widget.ImageView;
 
 /**

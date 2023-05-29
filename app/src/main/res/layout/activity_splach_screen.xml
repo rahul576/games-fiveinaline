@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sbt.rahul.fiveinaline.SplachScreen"
+    tools:context="com.rahul.shri.fiveinaline.SplachScreen"
     android:background="@drawable/test">
     <ImageView
         android:layout_width="wrap_content"

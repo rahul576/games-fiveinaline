@@ -1,4 +1,4 @@
-package com.sbt.rahul.fiveinaline;
+package com.rahul.shri.fiveinaline;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+
+import com.rahul.shri.fiveinaline.R;
 
 
 public class SplachScreen extends Activity {

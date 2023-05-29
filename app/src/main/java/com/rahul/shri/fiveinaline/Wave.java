@@ -1,4 +1,4 @@
-package com.sbt.rahul.fiveinaline;
+package com.rahul.shri.fiveinaline;
 
 
 

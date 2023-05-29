@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace 'com.sbt.rahul.fiveinaline'
+    namespace 'com.rahul.shri.fiveinaline'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.sbt.rahul.fiveinaline"
+        applicationId "com.rahul.shri.fiveinaline"
         minSdk 23
         targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

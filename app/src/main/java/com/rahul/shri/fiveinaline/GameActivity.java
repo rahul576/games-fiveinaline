@@ -1,4 +1,4 @@
-package com.sbt.rahul.fiveinaline;
+package com.rahul.shri.fiveinaline;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -23,6 +23,8 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.rahul.shri.fiveinaline.R;
 
 import java.util.ArrayList;
 import java.util.List;

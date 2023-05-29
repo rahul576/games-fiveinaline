@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sbt.rahul.fiveinaline.GameActivity"
+            android:name="com.rahul.shri.fiveinaline.GameActivity"
             android:screenOrientation="landscape">
         </activity>
 
